@@ -1,9 +1,15 @@
 # ninja log v5
-0	117	1693337372643012137	build.ninja	a1378a2e14dee959
-35	803	1693337290437337585	CMakeFiles/lesson6_3.dir/main.cpp.o	4b3878c5e3ee1b5e
-7	841	1693250383435844021	CMakeFiles/lesson6_3.dir/figure.cpp.o	4e953e4bcff04cb5
-803	889	1693337290527370091	lesson6_3	c86ee66c9e8c66de
-34	839	1693332970579766808	CMakeFiles/lesson6_3.dir/Triangle.cpp.o	55a4f10e97d1361f
-6	788	1693337474543842178	CMakeFiles/lesson6_3.dir/main.cpp.o	4b3878c5e3ee1b5e
-14	768	1693337662567771846	CMakeFiles/lesson6_3.dir/main.cpp.o	4b3878c5e3ee1b5e
-13	754	1693338288653255155	CMakeFiles/lesson6_3.dir/main.cpp.o	4b3878c5e3ee1b5e
+0	117	1693378695798445631	build.ninja	a1378a2e14dee959
+83	855	1693378603868187719	CMakeFiles/lesson6_3.dir/Triangle_two_sides_equal.cpp.o	bf5a10bfcf4e5d10
+80	856	1693378603868184469	CMakeFiles/lesson6_3.dir/main.cpp.o	4b3878c5e3ee1b5e
+8	859	1693377018179993488	CMakeFiles/lesson6_3.dir/figure.cpp.o	4e953e4bcff04cb5
+8	859	1693377018177114600	CMakeFiles/lesson6_3.dir/Triangle.cpp.o	55a4f10e97d1361f
+856	946	1693378603964000904	lesson6_3	c40f1922441c890c
+24	756	1693378052176732750	CMakeFiles/lesson6_3.dir/rectangle_triangle.cpp.o	512aec49c92a7339
+78	1187	1693378953189827217	CMakeFiles/lesson6_3.dir/Triangle_two_sides_equal.cpp.o	bf5a10bfcf4e5d10
+76	1187	1693378953189826342	CMakeFiles/lesson6_3.dir/main.cpp.o	4b3878c5e3ee1b5e
+78	1188	1693378953189831050	CMakeFiles/lesson6_3.dir/Triangle_three_sides_equal.cpp.o	598e035c2f7cf3a1
+1188	1272	1693378953280632131	lesson6_3	78d228283c9b50f5
+89	951	1693379078080068307	CMakeFiles/lesson6_3.dir/Triangle_three_sides_equal.cpp.o	598e035c2f7cf3a1
+86	952	1693379078080072015	CMakeFiles/lesson6_3.dir/main.cpp.o	4b3878c5e3ee1b5e
+952	1036	1693379078168950728	lesson6_3	78d228283c9b50f5

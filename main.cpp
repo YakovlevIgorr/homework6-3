@@ -1,6 +1,8 @@
 #include <iostream>
 //#include "Triangle.h"
-#include "rectangle_triangle.h"
+//#include "rectangle_triangle.h"
+//#include "Triangle_two_sides_equal.h"
+#include "Triangle_three_sides_equal.h"
 //class Figure{
 //protected:
 //    std::string figure;
@@ -87,37 +89,37 @@
 //    }
 //};
 
-class Triangle_two_sides_equal:public Triangle{
-///    Равнобедренный треугольник:-> Равносторонний треугольник
+//class Triangle_two_sides_equal:public Triangle{
+/////    Равнобедренный треугольник:-> Равносторонний треугольник
+//
+//public:
+//    Triangle_two_sides_equal(int a, int b, int A, int B, int C):
+//            Triangle(a, b, a, A, B, C){
+//        set_data("Равнобедренный треугольник:",3);
+//    }
+//    bool check() override{
+//        if(Triangle::check()){
+//            if(a == c && A == B) return true;
+//        }
+//        return false;
+//    }
+//};
 
-public:
-    Triangle_two_sides_equal(int a, int b, int A, int B, int C):
-            Triangle(a, b, a, A, B, C){
-        set_data("Равнобедренный треугольник:",3);
-    }
-    bool check() override{
-        if(Triangle::check()){
-            if(a == c && A == B) return true;
-        }
-        return false;
-    }
-};
-
-class Triangle_three_sides_equal:public Triangle_two_sides_equal{
-///    Равносторонний треугольник:->Равнобедренный треугольник
-
-public:
-    Triangle_three_sides_equal(int a):
-            Triangle_two_sides_equal(a, a, 60, 60, 60){
-        set_data("Равносторонний треугольник:", 3);
-    }
-    bool check() override{
-        if(Triangle::check()){
-            if(a == b && a == b && A == 60 && B == 60 && C == 60)return true;
-        }
-        return false;
-    }
-};
+//class Triangle_three_sides_equal:public Triangle_two_sides_equal{
+/////    Равносторонний треугольник:->Равнобедренный треугольник
+//
+//public:
+//    Triangle_three_sides_equal(int a):
+//            Triangle_two_sides_equal(a, a, 60, 60, 60){
+//        set_data("Равносторонний треугольник:", 3);
+//    }
+//    bool check() override{
+//        if(Triangle::check()){
+//            if(a == b && a == b && A == 60 && B == 60 && C == 60)return true;
+//        }
+//        return false;
+//    }
+//};
 
 class Quadrangle:public Figure{
     ///    Четырёхугольник:->параллелограмм
@@ -227,15 +229,15 @@ int main() {
     Rectangle_triangle obj_rectangle_triangle(10, 20, 30, 50, 60);
     print(obj_rectangle_triangle);
 //
-//    Rectangle_triangle obj_rectangle_triangle1(10,20,30,50,40);
-//    print(obj_rectangle_triangle1);
+    Rectangle_triangle obj_rectangle_triangle1(10,20,30,50,40);
+    print(obj_rectangle_triangle1);
 //
-//    Triangle_two_sides_equal triangleTwoSidesEqual(10,20,50,60,50);
-//    print(triangleTwoSidesEqual);
+    Triangle_two_sides_equal triangleTwoSidesEqual(10,20,50,60,50);
+    print(triangleTwoSidesEqual);
 //
-//    Triangle_three_sides_equal triangleThreeSidesEqual(30);
-//    print(triangleThreeSidesEqual);
-//
+    Triangle_three_sides_equal triangleThreeSidesEqual(30);
+    print(triangleThreeSidesEqual);
+
 //
 //
 //    Quadrangle quadrangle(10,20,30,40,50,60,70,80);

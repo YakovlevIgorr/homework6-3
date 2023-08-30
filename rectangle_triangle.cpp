@@ -11,11 +11,11 @@
     }
 
     bool Rectangle_triangle::check(){
-//        if(Triangle::check()) {
-//            if(C == 90) {
-//                return true;
-//            }
-//        }
+        if(Triangle::check()) {
+            if(C == 90) {
+                return true;
+            }
+        }
 
         return false;
     }

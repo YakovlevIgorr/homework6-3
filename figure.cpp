@@ -3,6 +3,7 @@
 //
 #include <iostream>
 #include "figure.h"
+
     Figure::Figure(){
         this->figure = "Фигура: ";
         this->sides = 0;
