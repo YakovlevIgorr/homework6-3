@@ -85,6 +85,36 @@ build CMakeFiles/lesson6_3.dir/Triangle_three_sides_equal.cpp.o: CXX_COMPILER__l
   OBJECT_DIR = CMakeFiles/lesson6_3.dir
   OBJECT_FILE_DIR = CMakeFiles/lesson6_3.dir
 
+build CMakeFiles/lesson6_3.dir/Quadrangle.cpp.o: CXX_COMPILER__lesson6_3_Debug /Users/macbook/Documents/с++$ netologia/lesson6-3/Quadrangle.cpp || cmake_object_order_depends_target_lesson6_3
+  DEP_FILE = CMakeFiles/lesson6_3.dir/Quadrangle.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/lesson6_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/lesson6_3.dir
+
+build CMakeFiles/lesson6_3.dir/Parallelogram.cpp.o: CXX_COMPILER__lesson6_3_Debug /Users/macbook/Documents/с++$ netologia/lesson6-3/Parallelogram.cpp || cmake_object_order_depends_target_lesson6_3
+  DEP_FILE = CMakeFiles/lesson6_3.dir/Parallelogram.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/lesson6_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/lesson6_3.dir
+
+build CMakeFiles/lesson6_3.dir/Rectangle.cpp.o: CXX_COMPILER__lesson6_3_Debug /Users/macbook/Documents/с++$ netologia/lesson6-3/Rectangle.cpp || cmake_object_order_depends_target_lesson6_3
+  DEP_FILE = CMakeFiles/lesson6_3.dir/Rectangle.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/lesson6_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/lesson6_3.dir
+
+build CMakeFiles/lesson6_3.dir/Rhombus.cpp.o: CXX_COMPILER__lesson6_3_Debug /Users/macbook/Documents/с++$ netologia/lesson6-3/Rhombus.cpp || cmake_object_order_depends_target_lesson6_3
+  DEP_FILE = CMakeFiles/lesson6_3.dir/Rhombus.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/lesson6_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/lesson6_3.dir
+
+build CMakeFiles/lesson6_3.dir/Square.cpp.o: CXX_COMPILER__lesson6_3_Debug /Users/macbook/Documents/с++$ netologia/lesson6-3/Square.cpp || cmake_object_order_depends_target_lesson6_3
+  DEP_FILE = CMakeFiles/lesson6_3.dir/Square.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/lesson6_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/lesson6_3.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target lesson6_3
@@ -93,7 +123,7 @@ build CMakeFiles/lesson6_3.dir/Triangle_three_sides_equal.cpp.o: CXX_COMPILER__l
 #############################################
 # Link the executable lesson6_3
 
-build lesson6_3: CXX_EXECUTABLE_LINKER__lesson6_3_Debug CMakeFiles/lesson6_3.dir/main.cpp.o CMakeFiles/lesson6_3.dir/figure.cpp.o CMakeFiles/lesson6_3.dir/Triangle.cpp.o CMakeFiles/lesson6_3.dir/rectangle_triangle.cpp.o CMakeFiles/lesson6_3.dir/Triangle_two_sides_equal.cpp.o CMakeFiles/lesson6_3.dir/Triangle_three_sides_equal.cpp.o
+build lesson6_3: CXX_EXECUTABLE_LINKER__lesson6_3_Debug CMakeFiles/lesson6_3.dir/main.cpp.o CMakeFiles/lesson6_3.dir/figure.cpp.o CMakeFiles/lesson6_3.dir/Triangle.cpp.o CMakeFiles/lesson6_3.dir/rectangle_triangle.cpp.o CMakeFiles/lesson6_3.dir/Triangle_two_sides_equal.cpp.o CMakeFiles/lesson6_3.dir/Triangle_three_sides_equal.cpp.o CMakeFiles/lesson6_3.dir/Quadrangle.cpp.o CMakeFiles/lesson6_3.dir/Parallelogram.cpp.o CMakeFiles/lesson6_3.dir/Rectangle.cpp.o CMakeFiles/lesson6_3.dir/Rhombus.cpp.o CMakeFiles/lesson6_3.dir/Square.cpp.o
   FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/lesson6_3.dir
   POST_BUILD = :

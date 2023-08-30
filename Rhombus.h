@@ -2,7 +2,10 @@
 // Created by Macbook on 30.08.2023.
 //
 
-#ifndef LESSON6_3_RHOMBUS_H
-#define LESSON6_3_RHOMBUS_H
-
-#endif //LESSON6_3_RHOMBUS_H
+#pragma once
+#include "Rectangle.h"
+class Rhombus:public Parallelogram{
+public:
+    Rhombus(int a, int A, int B);
+    bool check() override;
+};
