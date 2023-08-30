@@ -1,0 +1,9 @@
+# ninja log v5
+0	117	1693337372643012137	build.ninja	a1378a2e14dee959
+35	803	1693337290437337585	CMakeFiles/lesson6_3.dir/main.cpp.o	4b3878c5e3ee1b5e
+7	841	1693250383435844021	CMakeFiles/lesson6_3.dir/figure.cpp.o	4e953e4bcff04cb5
+803	889	1693337290527370091	lesson6_3	c86ee66c9e8c66de
+34	839	1693332970579766808	CMakeFiles/lesson6_3.dir/Triangle.cpp.o	55a4f10e97d1361f
+6	788	1693337474543842178	CMakeFiles/lesson6_3.dir/main.cpp.o	4b3878c5e3ee1b5e
+14	768	1693337662567771846	CMakeFiles/lesson6_3.dir/main.cpp.o	4b3878c5e3ee1b5e
+13	754	1693338288653255155	CMakeFiles/lesson6_3.dir/main.cpp.o	4b3878c5e3ee1b5e
